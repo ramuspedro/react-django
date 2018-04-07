@@ -34,6 +34,8 @@ or
 
 * Access the app: *http://localhost:8000/*
 
+* Creating a app like blog *docker-compose run web python manage.py startapp blog*
+
 * Create superuser: *python manage.py createsuperuser*
 
 ## Redo the project
