@@ -38,6 +38,8 @@ or
 
 * Create superuser: *python manage.py createsuperuser*
 
+* Migrate blog model *python manage.py makemigrations blog*
+
 ## Redo the project
 - To erase what you've done so far:
 ```sh
