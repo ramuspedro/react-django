@@ -1,4 +1,4 @@
-# Django Restful Project with Docker
+# React Django Project
 
 ## Getting markdown styles
 - https://dillinger.io/
