@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'blog',
     'todos'
 ]
@@ -48,7 +49,11 @@ REST_FRAMEWORK = {
     ]
 }
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', # new
+    'django.middleware.common.CommonMiddleware', # new
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

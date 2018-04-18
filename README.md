@@ -40,6 +40,8 @@ or
 
 * Migrate blog model *python manage.py makemigrations blog*
 
+* Just for test. Use on settings.py (CORS_ORIGIN_ALLOW_ALL = True)
+
 ## Redo the project
 - To erase what you've done so far:
 ```sh
